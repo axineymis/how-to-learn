@@ -20,15 +20,13 @@
   height: 608px;
   width: 765px;
   z-index: 2;
-  
 }
 .header__logo {
   position: absolute;
   top: 30px;
   left: 64px;
-  width: 183px; 
+  width: 183px;
   height: 32px;
-
 }
 .squre {
   position: absolute;
@@ -38,7 +36,6 @@
   right: 0;
   top: 64px;
   z-index: 1;
-  
 }
 .header__tittle {
   position: absolute;
@@ -67,11 +64,10 @@
   height: 568px;
   width: 568px;
 }
-
 .description {
   display: flex;
   justify-content:center;
-} 
+}
 .two-columns {
   display: flex;
   margin-top: 100px;
@@ -85,7 +81,6 @@
   line-height: 1.2;
   font-weight: normal;
   color: #2f80ed;
-  
 }
 .two-columns__main-text {
   justify-content:space-between;
@@ -117,11 +112,11 @@
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
-  font-weight: bold; 
+  font-weight: bold;
   text-align: center;
 }
 .section-subtitle {
-  font-weight: normal; 
+  font-weight: normal;
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -228,23 +223,20 @@
   justify-content: space-between;
   z-index: 2;
 }
-
 .section-title_theme_dark {
-  font-size: 24px;
+  font-size: 60px;
   width: 60%;
   line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold; 
+  font-weight: bold;
   text-align: center;
   color: #f2f2f2;
   z-index: 2;
-
 }
 .section-subtitle_theme_dark {
-  font-weight: normal; 
+  font-weight: normal;
   width: 60%;
-  line-height: 31.2x;
-  font-size: 18px;
+  line-height: 34px;
+  font-size: 24px;
   margin-top: 20px;
   text-align: center;
   margin-left: auto;
@@ -307,24 +299,20 @@
   font-size: 18px;
   color: #f2f2f2;
  }
-
 .footer__column-heading {
   line-height: 30px;
   font-weight:bold;
   font-size: 18px;
   margin-bottom: 20px;
   color: #f2f2f2;
-  
 }
 .footer__column-link {
   line-height: 30px;
   font-weight: normal;
   font-size: 18px;
   color: #f2f2f2;
- 
 }
 .footer-social-link {
   display: flex;
   height: 30px;
-  
 }
