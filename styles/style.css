@@ -20,7 +20,7 @@
   height: 608px;
   width: 765px;
   z-index: 2;
-  border: solid 2px red;
+  
 }
 .header__logo {
   position: absolute;
@@ -28,7 +28,7 @@
   left: 64px;
   width: 183px; 
   height: 32px;
-  border: solid 2px red;
+
 }
 .squre {
   position: absolute;
@@ -38,7 +38,7 @@
   right: 0;
   top: 64px;
   z-index: 1;
-  border: solid 2px red;
+  
 }
 .header__tittle {
   position: absolute;
@@ -47,7 +47,6 @@
   font-size: 102px;
   left: 64px;
   font-weight: bold;
-  border: solid 2px red;
   height: 210px;
   align-items: center;
 }
@@ -63,17 +62,13 @@
   bottom: 30px;
   font-size: 18px;
   line-height: 25px;
-  border: solid 2px red;
 }
 .header__square-pic {
   height: 568px;
   width: 568px;
 }
-.content {
-  border: solid 5px rgb(187, 255, 0);
-}
+
 .description {
-  border: solid 3px rgb(49, 15, 172);
   display: flex;
   justify-content:center;
 } 
@@ -83,7 +78,6 @@
   margin-bottom: 100px;
   width: 80%;
   justify-content: space-between;
-  border: solid 3px rgb(39, 139, 9);
 }
 .two-columns__brief {
   width: 175px;
@@ -91,11 +85,10 @@
   line-height: 1.2;
   font-weight: normal;
   color: #2f80ed;
-  border: solid 3px rgb(65, 147, 194); 
+  
 }
 .two-columns__main-text {
   justify-content:space-between;
-  border: solid 3px rgb(197, 38, 38);
   min-width: 784px;
   width: 80%;
   display: flex;
@@ -104,23 +97,21 @@
 }
 .two-columns__paragraph {
   margin-bottom: 30px;
-  border: solid 3px rgb(22, 4, 4); 
   display: flex;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
 }
 .paragraph__span-accent {
-   margin-right: 10px;
+  margin-right: 10px;
   font-weight: bold;
 }
 .digits {
-display: flex;
-flex-direction: column;
-padding-top: 100px;
-padding-bottom: 100px;
-align-items: center;
-border: solid 3px rgb(49, 15, 172);
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-items: center;
 }
 .section-title {
   width: 60%;
@@ -128,7 +119,6 @@ border: solid 3px rgb(49, 15, 172);
   font-size: 60px;
   font-weight: bold; 
   text-align: center;
-  border: solid 3px rgb(15, 122, 172);
 }
 .section-subtitle {
   font-weight: normal; 
@@ -139,14 +129,12 @@ border: solid 3px rgb(49, 15, 172);
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  border: solid 3px rgb(15, 172, 80);
 }
 .table {
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border: solid 3px rgb(144, 192, 13);
 }
 .table__cell{
   display: flex;
@@ -154,7 +142,6 @@ border: solid 3px rgb(49, 15, 172);
   width: 250px;
   padding-left: 0;
   margin-top: 60px;
-  border: solid 3px rgb(241, 48, 199);
 }
 .table__heading {
   line-height: 1.15;
@@ -169,7 +156,6 @@ border: solid 3px rgb(49, 15, 172);
 }
 .feynman-main {
   background-color:  #f2f2f2;
-  border: solid 3px rgb(241, 48, 199);
   height: 890px;
   position: relative;
 }
@@ -179,7 +165,6 @@ border: solid 3px rgb(49, 15, 172);
   margin-top: 100px;
   flex-direction: column;
   align-items: center;
-  border: solid 3px rgb(90, 48, 241);
   z-index: 2;
 }
 .feynman__title {
@@ -192,7 +177,6 @@ border: solid 3px rgb(49, 15, 172);
   font-size: 120px;
   font-weight: bold;
   text-align: center;
-  border: solid 3px rgb(241, 48, 58);
 }
 .feynman__subtitle {
   text-align: center;
@@ -203,7 +187,6 @@ border: solid 3px rgb(49, 15, 172);
   z-index: 2;
   margin-left: auto;
   margin-right: auto;
-  border: solid 3px rgb(241, 48, 58);
 }
 .feynman__img {
   position: absolute;
@@ -212,7 +195,6 @@ border: solid 3px rgb(49, 15, 172);
   left: 0;
   bottom: 0;
   z-index: 1;
-  border: solid 3px rgb(203, 236, 53);
 }
 .feynman__link {
   position: absolute;
@@ -221,18 +203,16 @@ border: solid 3px rgb(49, 15, 172);
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
-  border: solid 3px rgb(20, 17, 17); 
 }
 .kaufman {
-display: flex;
-position: relative;
-overflow: hidden;
-flex-direction: column;
-padding-top: 90px;
-padding-bottom: 90px;
-align-items: center;
-background-color: black;
-border: solid 3px rgb(49, 15, 172);
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  align-items: center;
+  background-color: black;
 }
 .kaufman__triangle {
   position: absolute;
@@ -247,7 +227,6 @@ border: solid 3px rgb(49, 15, 172);
   flex-wrap: wrap;
   justify-content: space-between;
   z-index: 2;
-  border: solid 3px rgb(144, 192, 13);
 }
 
 .section-title_theme_dark {
@@ -259,7 +238,6 @@ border: solid 3px rgb(49, 15, 172);
   text-align: center;
   color: #f2f2f2;
   z-index: 2;
-  border: solid 3px rgb(15, 122, 172);
 
 }
 .section-subtitle_theme_dark {
@@ -273,16 +251,12 @@ border: solid 3px rgb(49, 15, 172);
   margin-right: auto;
   z-index: 2;
   color: #f2f2f2;
-  border: solid 3px rgb(15, 172, 80);
 }
 .table__cell_theme_dark{
   display: flex;
   flex-wrap: wrap;
   width: 200px;
   margin-top: 80px;
- 
-  border: solid 3px rgb(241, 48, 199);
-  
 }
 .table__heading_theme_dark  {
   flex-wrap: wrap;
@@ -303,14 +277,10 @@ border: solid 3px rgb(49, 15, 172);
   min-height: 350px;
   background-color: #1f1f1f;
   display: flex;
-  
-  border: solid 3px rgb(80, 53, 236);
 }
 .footer__logo {
   width: 183px;
   height: 35px;
-
-  border: solid 3px rgb(236, 53, 62);
 }
 .footer__columns {
   display: flex;
@@ -320,50 +290,41 @@ border: solid 3px rgb(49, 15, 172);
   margin-top: 60px;
   margin-bottom: 40px;
   justify-content:space-between;
-  
-  border: solid 3px rgb(216, 238, 118);
 }
 .footer__column_copyright {
   align-items: flex-start;
   justify-content:space-between;
   display: flex;
   flex-direction: column;
-   height: 100%;
-   flex-basis: 711px;
-   border: solid 3px rgb(68, 18, 187);
+  height: 100%;
+  flex-basis: 711px;
 }
 .footer__copyright {
-   margin-bottom: 18px;
-   height: 18px;
-   line-height: 25px;
-   font-weight: normal;
-   font-size: 18px;
-   color: #f2f2f2;
-   border: solid 3px rgb(236, 53, 62);
+  margin-bottom: 18px;
+  height: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #f2f2f2;
  }
-.footer__column_info {
-  border: solid 3px rgb(236, 53, 62);
-}
-.footer__column_social {
-  border: solid 3px rgb(236, 53, 62);
-}
+
 .footer__column-heading {
   line-height: 30px;
   font-weight:bold;
   font-size: 18px;
   margin-bottom: 20px;
   color: #f2f2f2;
-  border: solid 3px rgb(236, 53, 62);
+  
 }
 .footer__column-link {
   line-height: 30px;
   font-weight: normal;
   font-size: 18px;
   color: #f2f2f2;
-  border: solid 3px rgb(236, 53, 62);
+ 
 }
 .footer-social-link {
   display: flex;
   height: 30px;
-  border: solid 3px rgb(240, 223, 224);
+  
 }
