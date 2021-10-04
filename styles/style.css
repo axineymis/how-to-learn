@@ -114,6 +114,7 @@
   font-size: 60px;
   font-weight: bold;
   text-align: center;
+  border: solid 3px red;
 }
 .section-subtitle {
   font-weight: normal;
@@ -124,6 +125,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  border: solid 3px red;
 }
 .table {
   width: 1100px;
@@ -312,7 +314,7 @@
   font-size: 18px;
   color: #f2f2f2;
 }
-.footer-social-link {
+.footer__social-link {
   display: flex;
   height: 30px;
 }
